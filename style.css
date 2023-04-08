@@ -1,0 +1,32 @@
+:root {
+    --primary-color: rgb(231, 76, 60);
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    transition: .3s;
+}
+#quote-box {
+    width: 550px;
+    border-radius: 3px;
+    transition: .3s;
+}
+.button {
+    background-color: var(--primary-color);
+    min-width: 42px;
+}
+.button:hover {
+    background-color: var(--primary-color);
+    opacity: .9;
+}
+.button:active {
+    background-color: var(--primary-color) !important;
+    opacity: .7;
+}
+.blink {
+    transition: .3s;
+}
